@@ -1,0 +1,149 @@
+.global{
+	width: 1024px;
+	margin: 0 auto;
+}
+#logo{
+	width: 370px;
+	height: 120px;
+	float: left;
+	margin-right: -50px;
+	background-image: url("../images/logo.png");
+}
+.menu{
+position: relative;
+width: 636px;
+height: 78px;
+margin-left: 380px;
+background-image: url("../images/traitlogo.png"); 
+background-repeat: repeat-x;
+background-position: bottom left;
+padding-top: 32px;
+padding-left:0px;
+}
+.menu li{
+	width: auto;
+	font-family: "Utsaah";
+	font-size: 40px;
+	list-style-type: none;
+	margin-left: 55px;
+	float:left;
+	background-image: url("../images/puce.png");
+	background-repeat: no-repeat;
+	background-position: right 21px;
+	padding-right: 60px;
+	line-height: 98px;
+}
+.menu li a{
+	text-decoration: none;
+	color: black;
+}
+.menu li:first-child{
+	margin-left: 45px;
+}
+.partenaire{
+	right: -4px;
+	top: 10px;
+	width: 22%;
+	position: absolute;
+}
+.presentation img:last-child{
+	position: absolute;
+	top: 248px;
+	width: 19%;
+	right: 5px;
+}
+
+.nav {
+	opacity:0.2;
+}
+
+.nav:hover {
+	opacity:1;
+}
+.tarif{
+	padding-top: 100px;
+	width: 800px;
+	margin:0 auto;
+	height: 350px;
+	display:none;
+}
+.tarif img{
+	width: 800px;
+	height: 350px;
+	
+}
+.slideDown{
+
+}
+.slideUp{
+
+}
+.contact{
+	float: left;
+	margin-left: 10px;	
+	margin-top: 100px;
+	margin-right: 200px;
+	width:400px;
+	height: 135px;
+	border:1px solid;
+  	border-radius: 10px;
+  	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+.contact:last-child{
+	margin-right: 0px;
+}
+.presentation{
+	position: relative;
+	margin-left: 20px;
+	font-family: "Utsaah";
+	font-size: 30px;
+	color : #e3004f;
+	width: 995px;
+}
+.presentation p {
+	width: 760px;
+}
+.facebook:hover{
+	-webkit-transform: rotate(360deg);
+}
+.facebook{
+	position: absolute;
+	top: 22px;
+	right: -8px;
+	width: 85px;
+	height: 85px;
+	-webkit-transition: 1s;
+	
+}
+.telephone{
+	line-height: 5;
+	padding-left: 12px;
+	font-family: "Utsaah";
+	font-size: 30px;
+	color : #e3004f;
+}
+.imgtel{
+	float: left;
+	padding-left: 4px;
+	padding-top: 25px;
+	width: 80px;
+}
+
+#lightbox-container-image-data-box {
+	display: none !important;
+}
+
+#jquery-lightbox {
+	margin-top: -80px;
+}
+
+#lightbox-image {
+	width: 85%;
+	height: 85%;
+	border: 15px solid #FFF;
+}
+
+#lightbox-container-image-box {
+	background: none !important;
+}
